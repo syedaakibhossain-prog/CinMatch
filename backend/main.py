@@ -14,7 +14,7 @@ app = FastAPI(
 # CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://cin-match-six.vercel.app/"],  # Change this to your frontend URL in production
+    allow_origins=["https://cin-match-six.vercel.app"],  # Change this to your frontend URL in production
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
