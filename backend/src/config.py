@@ -10,9 +10,7 @@ class Settings(BaseSettings):
     )
     api_read_access_token: str = ""
 
-    redis_host: str = "localhost"
-    redis_port: int = 6379
-    redis_db: int = 0
+    redis_url: str
     rate_limit_window: int = 60
     rate_limit_max_requests: int = 100
 
