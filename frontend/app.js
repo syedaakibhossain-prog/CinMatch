@@ -6,7 +6,7 @@
 "use strict";
 
 // ── CONFIG ────────────────────────────────────────────────────────────────
-const API_BASE = "http://127.0.0.1:8000";
+const API_BASE = "https://cinmatch.onrender.com";
 const TMDB_URL = "https://www.themoviedb.org/movie";
 
 

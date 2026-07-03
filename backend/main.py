@@ -14,7 +14,7 @@ app = FastAPI(
 # CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Change this to your frontend URL in production
+    allow_origins=["https://cin-match-six.vercel.app/"],  # Change this to your frontend URL in production
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -60,3 +60,8 @@ async def recommend_movies(
         "total": len(recommendations),
         "recommendations": recommendations
     }
+
+
+@app.get("/health")
+async def health_check():
+    return {"status": "ok"}
