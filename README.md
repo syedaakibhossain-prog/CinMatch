@@ -3,7 +3,7 @@
 CineMatch is a full-stack movie recommendation web app. Enter any movie title and instantly receive five personalised recommendations, complete with posters fetched live from The Movie Database (TMDB).
 
 **Live Frontend:** [cin-match-six.vercel.app](https://cin-match-six.vercel.app)  
-**Backend API:** [cinmatch.onrender.com](https://cinmatch.onrender.com)
+
 
 ---
 
