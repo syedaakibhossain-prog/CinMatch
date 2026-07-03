@@ -84,5 +84,5 @@ class MovieNameInput(BaseModel):
 
     @property
     def normalized(self) -> str:
-        """Lower-cased, stripped value ready for DataFrame lookup."""
+        
         return self.movie_name.strip().lower()
